@@ -17,7 +17,7 @@ This Bash script simplifies the configuration of NTP (Network Time Protocol) set
 
 ### Usage
 
-1. Clone this repository or download the script (ntp-config.sh) to your local machine.
+1. Clone this repository or download the script (ntp-configure.sh) to your local machine.
 
 2. Open a terminal and navigate to the directory containing the script.
 
@@ -35,19 +35,19 @@ The script supports the following commands:
 #### Configure an NTP Server
 
 ```bash
-./ntp-config.sh server-configure
+./ntp-configure.sh server-configure
 ```
 
 To configure an NTP server with custom remote NTP servers:
 
 ```bash
-./ntp-config.sh server-configure --remote-ntp-servers "2.tr.pool.ntp.org 0.europe.pool.ntp.org 3.europe.pool.ntp.org"
+./ntp-configure.sh server-configure --remote-ntp-servers "2.tr.pool.ntp.org 0.europe.pool.ntp.org 3.europe.pool.ntp.org"
 ```
 
 #### Configure an NTP Client
 
 ```bash
-./ntp-config.sh client-configure 172.17.0.3
+./ntp-configure.sh client-configure 172.17.0.3
 ```
 
 ### License
